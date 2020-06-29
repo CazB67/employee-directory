@@ -11,13 +11,20 @@ class App extends Component {
    employees
   };
 
+  filterName = firstName => {
+    // Filter this.state.friends for friends with an id not equal to the id being removed
+    const employees = this.state.employees.filter(employee => employee.firstName === firstName.val().trim());
+    // Set this.state.friends equal to the new friends array
+    this.setState({ employees });
+  };
+
   // Map over this.state.employees and render a EmployeeTable component for each employee object
   render() {
     return (
       <Wrapper>
         <Title>Employee Directory</Title>
-        
-        <table className="table table-hover table-dark">
+        <div className="table-responsive">
+        <table className="table table-hover table-dark table-responsive-sm">
         <thead>
           <tr>
             <th scope="col">ID</th>
@@ -30,6 +37,7 @@ class App extends Component {
         <tbody>
           {this.state.employees.map(employee => (
             <EmployeeTable
+              filterName={this.filterName}
               id={employee.id}
               key={employee.id}
               firstName={employee.firstName}
@@ -40,6 +48,7 @@ class App extends Component {
             ))}
         </tbody>
         </table>
+        </div>
       </Wrapper>
     );
   }
