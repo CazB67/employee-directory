@@ -1,73 +1,85 @@
 [
     {
       "id": 1,
-      "name": "SpongeBob",
+      "firstName": "SpongeBob",
+      "lastName": "Squarepants",
       "occupation": "Fry Cook",
       "email": "SpongeBob@gmail.com"
     },
     {
       "id": 2,
-      "name": "Mr. Krabs",
+      "firstName": "Eugene",
+      "lastName": "Krabs",
       "occupation": "Restaurant Owner",
       "email": "MrKrabs@gmail.com"
     },
     {
       "id": 3,
-      "name": "Squidward",
+      "firstName": "Squidward",
+      "lastName": "Tentacles",
       "occupation": "Cashier",
       "email": "Squidward@gmail.com"
     },
     {
       "id": 4,
-      "name": "Dexter",
+      "firstName": "Dexter",
+      "lastName": "Smith",
       "occupation": "Boy Genius",
       "email": "Dexter@gmail.com"
     },
     {
       "id": 5,
-      "name": "Courage",
+      "firstName": "Courage",
+      "lastName": "Dog",
       "occupation": "A Cowardly Dog",
       "email": "Courage@gmail.com"
     },
     {
       "id": 6,
-      "name": "Doug Funnie",
+      "firstName": "Doug",
+      "lastName": "Funnie",
       "occupation": "Student",
       "email": "Doug@gmail.com"
     },
     {
       "id": 7,
-      "name": "Bugs Bunny",
+      "firstName": "Bugs",
+      "lastName": "Bunny",
       "occupation": "Looney Toon",
       "email": "Bugs@gmail.com"
     },
     {
       "id": 8,
-      "name": "Johnny Bravo",
+      "firstName": "Johnny",
+      "lastName": "Bravo",
       "occupation": "Ladies Man",
       "email": "Johnny@gmail.com"
     },
     {
       "id": 9,
-      "name": "Tommy Pickles",
+      "firstName": "Tommy",
+      "lastName": "Pickles",
       "occupation": "Adventurer",
       "email": "TommyP@gmail.com"
     },
     {
       "id": 10,
-      "name": "Rocko",
+      "firstName": "Rocko",
+      "lastName": "SpongeBob",
       "occupation": "Cashier",
       "email": "Rocko@gmail.com"
     },
     {
       "id": 11,
-      "name": "Captain Planet",
+      "firstName": "Captain",
+      "lastName": "Planet",
       "occupation": "Superhero",
       "email": "Earth@gmail.com"
     },
     {
       "id": 12,
-      "name": "Ickis",
+      "firstName": "Ickis",
+      "lastName": "Green",
       "occupation": "Ahhhh! A Real Monster!",
       "email": "Ickis@gmail.com"
     }

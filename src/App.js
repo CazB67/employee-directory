@@ -23,7 +23,8 @@ class App extends Component {
         <thead>
           <tr>
             <th scope="col">ID</th>
-            <th scope="col">Name</th>
+            <th scope="col"> First Name</th>
+            <th scope="col"> Last Name</th>
             <th scope="col">Occupation</th>
             <th scope="col">Email</th>
           </tr>
@@ -33,7 +34,8 @@ class App extends Component {
             <EmployeeTable
               id={employee.id}
               key={employee.id}
-              name={employee.name}
+              firstName={employee.firstName}
+              lastName={employee.lastName}
               occupation={employee.occupation}
               email={employee.email}
             />
