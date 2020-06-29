@@ -1,3 +1,40 @@
+# Employee Directory
+An employee directory created with React
+
+## Description 
+![Last Commit](https://img.shields.io/github/last-commit/cazb67/employee-directory) ![Top Language](https://img.shields.io/github/languages/top/cazb67/employee-directory) ![GitHub repo size](https://img.shields.io/github/repo-size/cazb67/employee-directory) 
+
+An application where you are able to view an entire employee directory at once ensuring quick access to their information. When the user loads the page, a table of employees will render. The user is able to sort the table by at least one category and filter the users by at least one property.
+
+## Table of Contents
+1. [Installation](#Installation)
+2. [Usage](#Usage)
+3. [Credits](#Credits)
+4. [Contributing](#Contributing)
+5. [Licence](#License)
+
+## Installation
+
+
+## Usage
+* The URL of the deployed application is 
+
+* The URL of the GitHub repository is https://github.com/CazB67/employee-directory
+
+The following GIF shows the application's functionality and how to use. 
+
+<img src=".gif" width="" height="" title="Employee Directory App">
+
+## Credits
+- Team at UWA Coding Bootcamp
+
+## Contributing
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
+## License
+![License](https://img.shields.io/github/license/cazb67/employee-directory) 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
