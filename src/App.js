@@ -1,26 +1,48 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import EmployeeTable from "./components/EmployeeTable";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+//import TableHead from "./components/TableHead";
+import employees from "./employees.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  // Setting this.state.employees to the employees json array
+  state = {
+   employees
+  };
+
+  
+    
+
+  // Map over this.state.employees and render a EmployeeTable component for each employee object
+  render() {
+    return (
+      <Wrapper>
+        <Title>Employee List</Title>
+        <table className="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Occupation</th>
+            <th scope="col">Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          {this.state.employees.map(employee => (
+            <EmployeeTable
+              id={employee.id}
+              key={employee.id}
+              name={employee.name}
+              occupation={employee.occupation}
+              email={employee.email}
+            />
+            ))}
+        </tbody>
+        </table>
+      </Wrapper>
+    );
+  }
 }
 
 export default App;

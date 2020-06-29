@@ -1,0 +1,76 @@
+[
+    {
+      "id": 1,
+      "name": "SpongeBob",
+      "occupation": "Fry Cook",
+      "email": "SpongeBob@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Mr. Krabs",
+      "occupation": "Restaurant Owner",
+      "email": "MrKrabs@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Squidward",
+      "occupation": "Cashier",
+      "email": "Squidward@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Dexter",
+      "occupation": "Boy Genius",
+      "email": "Dexter@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Courage",
+      "occupation": "A Cowardly Dog",
+      "email": "Courage@gmail.com"
+    },
+    {
+      "id": 6,
+      "name": "Doug Funnie",
+      "occupation": "Student",
+      "email": "Doug@gmail.com"
+    },
+    {
+      "id": 7,
+      "name": "Bugs Bunny",
+      "occupation": "Looney Toon",
+      "email": "Bugs@gmail.com"
+    },
+    {
+      "id": 8,
+      "name": "Johnny Bravo",
+      "occupation": "Ladies Man",
+      "email": "Johnny@gmail.com"
+    },
+    {
+      "id": 9,
+      "name": "Tommy Pickles",
+      "occupation": "Adventurer",
+      "email": "TommyP@gmail.com"
+    },
+    {
+      "id": 10,
+      "name": "Rocko",
+      "occupation": "Cashier",
+      "email": "Rocko@gmail.com"
+    },
+    {
+      "id": 11,
+      "name": "Captain Planet",
+      "occupation": "Superhero",
+      "email": "Earth@gmail.com"
+    },
+    {
+      "id": 12,
+      "name": "Ickis",
+      "occupation": "Ahhhh! A Real Monster!",
+      "email": "Ickis@gmail.com"
+    }
+  ]
+  
+  

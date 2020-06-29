@@ -17,7 +17,7 @@ An application where you are able to view an entire employee directory at once e
 
 
 ## Usage
-* The URL of the deployed application is 
+* The URL of the deployed application is https://mighty-sierra-02848.herokuapp.com/
 
 * The URL of the GitHub repository is https://github.com/CazB67/employee-directory
 
