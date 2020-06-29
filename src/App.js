@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import EmployeeTable from "./components/EmployeeTable";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-//import TableHead from "./components/TableHead";
+//import Form from "./components/Form";
 import employees from "./employees.json";
 
 class App extends Component {
@@ -11,14 +11,12 @@ class App extends Component {
    employees
   };
 
-  
-    
-
   // Map over this.state.employees and render a EmployeeTable component for each employee object
   render() {
     return (
       <Wrapper>
-        <Title>Employee List</Title>
+        <Title>Employee Directory</Title>
+        
         <table className="table table-hover table-dark">
         <thead>
           <tr>
