@@ -1,4 +1,8 @@
-.title{ 
-    background-color: lightskyblue;
+.navbar-brand{ 
     font-weight: 900;
+
+}
+
+.navbar {
+    background-color: lightskyblue;
 }
