@@ -1,10 +1,9 @@
 import React from "react";
 import "./style.css";
 
-function Title(props) {
-  return <nav className="navbar">
-  <span className="navbar-brand mx-auto mb-0 p-3 h1">{props.children}</span>
-</nav>;
+function Title() {
+  return <div className= "background p-4"><h1 className="mb-3">Employee Directory</h1>
+            <p>Use the search box to filter your results</p></div>
 }
 
 export default Title;

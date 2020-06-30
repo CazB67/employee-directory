@@ -1,8 +1,9 @@
-.navbar-brand{ 
+h1{ 
     font-weight: 900;
-
 }
 
-.navbar {
+.background {
     background-color: lightskyblue;
 }
+
+
