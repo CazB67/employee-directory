@@ -18,7 +18,7 @@ class App extends Component {
     this.setState({ employeeInfo: employees });
   }
 
-  filterFirstName = (event) => {
+  filterTable = (event) => {
     this.setState({filter: event.target.value})
   }
 
@@ -27,7 +27,8 @@ class App extends Component {
     if(this.state.filter === "") {
       return employeeFilter
     }
-    return employeeFilter.filter(employee => employee.firstName.toLowerCase().includes(this.state.filter.toLowerCase()) )
+    let filterState = this.state.filter.toLowerCase()
+    return employeeFilter.filter(employee => (employee.firstName.toLowerCase().includes(filterState)) || employee.lastName.toLowerCase().includes(filterState) || employee.occupation.toLowerCase().includes(filterState) || employee.email.toLowerCase().includes(filterState))
   };
 
   render() {
@@ -36,7 +37,7 @@ class App extends Component {
         <Container>
         <Title/>
         <SearchBox 
-          filterEvent = {this.filterFirstName}
+          filterEvent = {this.filterTable}
         />
         <div className="table-responsive">
         <table className="table table-hover table-dark table-responsive-sm">
