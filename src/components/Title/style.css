@@ -1,9 +1,10 @@
 h1{ 
     font-weight: 900;
+    text-shadow: 4px 4px 4px lightslategrey;
 }
 
 .background {
-    background-color: lightskyblue;
+    background-color: lightsteelblue;
 }
 
 
