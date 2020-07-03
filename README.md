@@ -24,7 +24,7 @@ An application where you are able to view an entire employee directory at once e
 
 The following GIF shows the application's functionality and how to use. 
 
-<img src="public/directory.gif" width="360" height="282" title="Employee Directory App">
+<img src="public/directory.gif" width="541" height="423" title="Employee Directory App">
 
 ## Credits
 - Team at UWA Coding Bootcamp
