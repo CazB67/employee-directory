@@ -14,7 +14,8 @@ An application where you are able to view an entire employee directory at once e
 5. [Licence](#License)
 
 ## Installation
-
+- npm install
+- npm start
 
 ## Usage
 * The URL of the deployed application is https://mighty-sierra-02848.herokuapp.com/
@@ -23,10 +24,11 @@ An application where you are able to view an entire employee directory at once e
 
 The following GIF shows the application's functionality and how to use. 
 
-<img src=".gif" width="" height="" title="Employee Directory App">
+<img src="public/directory.gif" width="360" height="282" title="Employee Directory App">
 
 ## Credits
 - Team at UWA Coding Bootcamp
+- https://www.florin-pop.com/blog/2019/07/sort-table-data-with-react/
 
 ## Contributing
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
