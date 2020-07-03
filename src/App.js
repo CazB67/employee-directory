@@ -73,7 +73,6 @@ class App extends Component {
   //Render components. Use map to create a new array with the results of this.filterAndSearchTable which is used by the employeeTable component
   render() {
     return (
-      
         <Container>
         <Title/>
         <SearchBox 
