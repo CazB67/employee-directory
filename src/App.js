@@ -6,6 +6,7 @@ import Container from "./components/Container";
 import Title from "./components/Title";
 import employees from "./employees.json";
 import Footer from "./components/Footer";
+import TableWrapper from "./components/TableWrapper";
 
 class App extends Component {
   // Setting up state variables
@@ -78,8 +79,7 @@ class App extends Component {
         <SearchBox 
           filterEvent = {this.filterTable}
         />
-        <div className="table-responsive">
-          <table className="table table-hover table-dark table-responsive-sm">
+          <TableWrapper>
             <TableHeader sortEvent = {this.sortTable}/>
               {this.filterAndSearchTable().map(employee => (
                 <EmployeeTable
@@ -90,8 +90,7 @@ class App extends Component {
                   email={employee.email}
                 />
                 ))}
-          </table>
-        </div>
+          </TableWrapper>
         <Footer/>
         </Container>
      
